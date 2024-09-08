@@ -6,3 +6,5 @@ models/*.pth
 *__init__.py
 *__pycache__
 
+datasets/FGVC-aircraft/data/images/*
+.python-version

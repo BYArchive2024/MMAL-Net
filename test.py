@@ -14,9 +14,10 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 CUDA = torch.cuda.is_available()
 DEVICE = torch.device("cuda" if CUDA else "cpu")
+DEVICE = torch.device("cpu")
 
 # dataset
-set = 'CUB'
+set = 'Aircraft'
 if set == 'CUB':
     root = './datasets/CUB_200_2011'  # dataset path
     # model path
