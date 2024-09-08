@@ -30,7 +30,7 @@ poetry install
 ```
 
 ## Datasets
-Download the [images.zip](https://drive.google.com/file/d/1CCjt9MznDL1UEicb134eDiKdMTwKyyb9/view?usp=sharing) copy the contents of the extracted **images** folder into **datasets/FGVC_Aircraft/data/images**
+Download the [images.zip](https://drive.google.com/file/d/1CCjt9MznDL1UEicb134eDiKdMTwKyyb9/view?usp=sharing) and copy the contents of the extracted **images** folder into **datasets/FGVC_Aircraft/data/images**
 
 You can also try other fine-grained datasets. 
 
