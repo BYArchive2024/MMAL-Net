@@ -221,7 +221,7 @@ class ResNet(nn.Module):
 def _resnet(arch, block, layers, pretrained, pth_path, **kwargs):
     model = ResNet(block, layers, **kwargs)
     if pretrained:
-        state_dict = torch.load(pth_path)
+        state_dict = torch.load(pth_path, weights_only=False)
         model.load_state_dict(state_dict)
     return model
 
