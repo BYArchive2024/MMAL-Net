@@ -10,6 +10,7 @@ def ComputeCoordinate(image_size, stride, indice, ratio):
     x_rightlow = x_lefttop + ratio[0] * stride
     y_rightlow = y_lefttop + ratio[1] * stride
     # for image
+    x_lefttop, y_lefttop, x_rightlow, y_rightlow = x_lefttop[0], y_lefttop[0], x_rightlow[0], y_rightlow[0]
     if x_lefttop < 0:
         x_lefttop = 0
     if y_lefttop < 0:

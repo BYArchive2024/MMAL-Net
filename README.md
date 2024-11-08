@@ -14,15 +14,6 @@ This is a PyTorch implementation of the paper ["Multi-branch and Multi-scale Att
 
 
 ## Requirements
-- python 3.7
-- pytorch 1.3.1
-- numpy 1.17.3
-- scikit-image 0.16.2
-- Tensorboard 1.15.0 
-- TensorboardX 2.0
-- tqdm 4.41.1
-- imageio 2.6.1
-- pillow 6.1.0
 
 You can install the requirements using the following command:
 ```

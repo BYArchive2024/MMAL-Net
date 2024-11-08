@@ -25,7 +25,7 @@ def nms(scores_np, proposalN, iou_threshs, coordinates):
         indices_results.append(indice_coordinates[5])
 
         if len(indices_results) == proposalN:
-            return np.array(indices_results).reshape(1,proposalN).astype(np.int)
+            return np.array(indices_results).reshape(1,proposalN).astype(int)
         res = res[:-1]
 
         # Exclude anchor boxes with selected anchor box whose iou is greater than the threshold
